@@ -108,7 +108,8 @@ namespace AP204_Pronia.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(10)")
+                        .HasMaxLength(10);
 
                     b.HasKey("Id");
 
@@ -145,17 +146,17 @@ namespace AP204_Pronia.Migrations
             modelBuilder.Entity("AP204_Pronia.Models.Plant", b =>
                 {
                     b.HasOne("AP204_Pronia.Models.Color", "Color")
-                        .WithMany("plants")
+                        .WithMany("Plants")
                         .HasForeignKey("ColorId");
 
                     b.HasOne("AP204_Pronia.Models.Size", "Size")
-                        .WithMany("plants")
+                        .WithMany("Plants")
                         .HasForeignKey("SizeId");
                 });
 
             modelBuilder.Entity("AP204_Pronia.Models.PlantImage", b =>
                 {
-                    b.HasOne("AP204_Pronia.Models.Plant", "plants")
+                    b.HasOne("AP204_Pronia.Models.Plant", "Plants")
                         .WithMany("PlantImages")
                         .HasForeignKey("PlantId")
                         .OnDelete(DeleteBehavior.Cascade)

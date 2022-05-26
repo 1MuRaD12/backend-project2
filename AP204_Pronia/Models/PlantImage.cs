@@ -10,7 +10,7 @@
 
         public int PlantId { get; set; }
 
-        public Plant plants { get; set; }
+        public Plant Plants { get; set; }
 
     }
 }
