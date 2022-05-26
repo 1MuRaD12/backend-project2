@@ -1,14 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AP204_Pronia.Areas.ProniaAdmin.Controllers
+namespace AP204_Pronia.Areas.proniaadmin.Controllers
 {
     public class DashboardController : Controller
     {
-        [Area("ProniaAdmin")]
-
-        public IActionResult Views()
+        [Area("proniaadmin")]
+        public IActionResult Index()
         {
-            return RedirectToActionPermanentPreserveMethod();
+            return View();
         }
     }
 }

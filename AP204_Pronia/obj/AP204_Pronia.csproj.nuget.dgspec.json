@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\AP204_Pronia\\AP204_Pronia\\AP204_Pronia.csproj": {}
+    "C:\\Users\\User\\Desktop\\backend projec 2\\New folder\\AP204_Pronia\\AP204_Pronia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\AP204_Pronia\\AP204_Pronia\\AP204_Pronia.csproj": {
+    "C:\\Users\\User\\Desktop\\backend projec 2\\New folder\\AP204_Pronia\\AP204_Pronia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AP204_Pronia\\AP204_Pronia\\AP204_Pronia.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\backend projec 2\\New folder\\AP204_Pronia\\AP204_Pronia.csproj",
         "projectName": "AP204_Pronia",
-        "projectPath": "C:\\Users\\User\\Desktop\\AP204_Pronia\\AP204_Pronia\\AP204_Pronia.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\backend projec 2\\New folder\\AP204_Pronia\\AP204_Pronia.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AP204_Pronia\\AP204_Pronia\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\backend projec 2\\New folder\\AP204_Pronia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

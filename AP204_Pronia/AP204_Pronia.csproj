@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\ProniaAdmin\Data\" />
-    <Folder Include="Areas\ProniaAdmin\Models\" />
+    <Folder Include="Areas\proniaadmin\Data\" />
+    <Folder Include="Areas\proniaadmin\Models\" />
   </ItemGroup>
 
 </Project>
